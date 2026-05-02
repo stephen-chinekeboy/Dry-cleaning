@@ -94,11 +94,12 @@ nav {
 /* hero section */
 .sec {
   background-image: url('/images/ryanmcguire-laundry-saloon-567951.jpg');
+  /* background-image: url('/images/Home\ Service\ House\ Cleaning\ And\ Laundry\ Wash\,\ House\,\ Service\,\ Clean\ PNG\ Transparent\ Image\ and\ Clipart\ for\ Free\ Download.jpeg'); */
   background-position: right;
   background-size: contain;
   background-repeat: no-repeat;
   width: 100%;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -111,6 +112,7 @@ nav {
 .hero {
   padding: 40px 60px;
   z-index: 1000;
+  width: 100%;
 }
 
 .hero-text {
@@ -136,18 +138,140 @@ nav {
 .book-flex {
   display: flex;
   gap: 30px;
+  margin: 40px 0;
+}
+
+.book-2 ,
+.whatsapp{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.book-2 {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 10px;
+}
+
+.book-2 svg {
+  fill: white;
+}
+
+.whatsapp {
+  background-color: white;
+  padding: 10px 40px;
+  border-radius: 10px;
+  border: 1px solid #007bff;
+}
+.whatsapp svg {
+  fill: #007bff;
+}
+
+.pick-up {
+  display: flex;
+  gap: 30px;
+  margin: 50px 0;
+}
+
+.fast-svg,
+.quality-svg,
+.on-time-svg {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.fast-svg p,
+.quality-svg p,
+.on-time-svg p {
+  color: #007bff;
+}
+
+.fast-svg h3,
+.quality-svg h3,
+.on-time-svg h3{
+  font-size: 25px;
+  color: #1a1a1a;
+}
+
+.fast-svg  svg,
+.on-time-svg svg ,
+.quality-svg svg {
+  background: #f7fbff;
+  padding: 15px;
+  border-radius: 50px;
+  width: 90px;
+  height: 90px;
 }
 
 
 .backdrop {
   width: 100%;
   height: 100%;
-  background-color: #007bff2f;
+  background-color: #007bff23;
   position: absolute;
   top: 0;
   left: 0;
 }
 
+@media (max-width: 480px) {
+  .logo h1 {
+    font-size: 30px;
+  }
+  .sec {
+    margin-top: 80px;
+    height: 170vh;
+  }
+
+  .hero-text h1 {
+    font-size: 30px;
+  }
+
+  .book-flex {
+    flex-direction: column;
+  }
+
+  .book-2 {
+    padding: 10px 35px;
+  }
+
+  .whatsapp {
+    padding: 10px 30px;
+  }
+
+  .whatsapp h2 {
+    font-size: 20px;
+  }
+
+  .book-2 h2{
+    font-size: 20px;
+  }
+
+  .pick-up {
+    flex-direction: column;
+  }
+
+  /* .fast-svg svg {
+    padding: 10px;
+  } */
+
+  .fast-svg svg{
+    width: 50px;
+    height: 50px;
+  }
+
+  .quality-svg svg,
+  .on-time-svg svg {
+    width: 50px;
+    height: 50px;
+  }
+
+  .pick-up-text p{
+    color: #f7fbff;
+  }
+}
 
  @media (max-width: 900px) {
  .hamburger {

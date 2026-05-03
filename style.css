@@ -183,7 +183,6 @@ nav {
   gap: 10px;
 }
 
-.fast-svg p,
 .quality-svg p,
 .on-time-svg p {
   color: #007bff;
@@ -220,9 +219,19 @@ nav {
   .logo h1 {
     font-size: 30px;
   }
+
+  header {
+   padding: 10px;
+  }
+
   .sec {
     margin-top: 80px;
     height: 100vh;
+  }
+
+  nav{
+    padding: 10px;
+    /* text-align: center; */
   }
 
   .hero-text h1 {
@@ -231,10 +240,11 @@ nav {
 
   .book-flex {
     flex-direction: column;
+    align-items: center;
   }
 
-  .book-2 {
-    padding: 10px 35px;
+  .hero {
+    padding: ;
   }
 
   .whatsapp {
@@ -249,13 +259,14 @@ nav {
     font-size: 20px;
   }
 
+  /* .book-2 svg{
+    height: 30px;
+    width: 30px;
+  } */
+
   .pick-up {
     flex-direction: column;
   }
-
-  /* .fast-svg svg {
-    padding: 10px;
-  } */
 
   .fast-svg svg{
     width: 50px;
@@ -268,7 +279,7 @@ nav {
     height: 50px;
   }
 
-  .pick-up-text p{
+  .pick-up-text .within{
     color: #f7fbff;
   }
 }

@@ -217,7 +217,7 @@ nav {
 
 @media (max-width: 480px) {
   .logo h1 {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .logo h1 p {
@@ -234,7 +234,7 @@ nav {
   }
 
   .sec {
-    margin-top: 110px;
+    margin-top: 90px;
     height: 100vh;
   }
 
@@ -243,17 +243,22 @@ nav {
     /* text-align: center; */
   }
 
+  .hero {
+    padding: 20px;
+  }
+
   .hero-text h1 {
     font-size: 25px;
   }
 
-  .hero-text h1 p {
-    font-size: 25px;
+  .hero-text .clean {
+    font-size: 15px;
+    width: 250px;
   }
 
   .book-flex {
     flex-direction: column;
-    /* align-items: center; */
+    align-items: center;
   }
 
   .whatsapp {

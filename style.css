@@ -223,7 +223,7 @@ nav {
   .nav-list .book {
     margin: 0;
     font-size: 15px;
-    gap: 5px;
+    gap: 10px;
   }
 
   .logo h1 p {
@@ -235,9 +235,6 @@ nav {
     height: 40px;
   }
 
-  .book svg{
-    display: none;
-  }
 
   .sec {
     margin-top: 80px;

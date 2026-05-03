@@ -217,7 +217,16 @@ nav {
 
 @media (max-width: 480px) {
   .logo h1 {
-    font-size: 30px;
+    font-size: 20px;
+  }
+
+  .logo h1 p {
+    font-size: 15px;
+  }
+
+  .logo svg {
+    width: 40px;
+    height: 40px;
   }
 
   header {
@@ -229,22 +238,22 @@ nav {
     height: 100vh;
   }
 
-  nav{
+  nav {
     padding: 10px;
     /* text-align: center; */
   }
 
   .hero-text h1 {
-    font-size: 30px;
+    font-size: 25px;
+  }
+
+  .hero-text h1 p {
+    font-size: 25px;
   }
 
   .book-flex {
     flex-direction: column;
-    align-items: center;
-  }
-
-  .hero {
-    padding: ;
+    /* align-items: center; */
   }
 
   .whatsapp {

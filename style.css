@@ -255,6 +255,7 @@ nav {
 
   .hero-text h1 {
     font-size: 25px;
+    width: 300px;
   }
 
   .hero-text .clean {
@@ -304,7 +305,7 @@ nav {
   }
 }
 
- @media (max-width: 900px) {
+@media (max-width: 900px) {
  .hamburger {
   display: block;
  }

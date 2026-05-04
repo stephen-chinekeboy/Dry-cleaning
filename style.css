@@ -367,6 +367,10 @@ nav {
   .services-flex {
     flex-direction: column;
   }
+
+  .service-line {
+    margin: 0 80px;
+  }
 }
 
 @media (max-width: 900px) {

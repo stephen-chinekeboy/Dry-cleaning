@@ -330,6 +330,7 @@ nav {
   margin: 30px;
   line-height: 30px;
   background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-item h3 {
@@ -753,6 +754,19 @@ nav {
     width: 70px;
     height: 70px;
   }
+
+  .pricing-flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pricing-line {
+    margin: 5px 180px;
+  }
+
+  .wash-price {
+    padding: 20px;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -764,6 +778,69 @@ nav {
   .book {
     margin: 0;
   }
+
+  .wash-header h3:first-child,
+  .cleaning-header h3:first-child,
+  .iron-header h3:first-child {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .wash-header .second,
+  .cleaning-header .second,
+  .iron-header .second {
+    font-size: 20px;
+  }
+
+  .press-svg,
+  .steam-svg,
+  .perfect-svg,
+  .time-svg,
+  .wash-svg,
+  .dry-svg,
+  .fold-svg,
+  .deliver-svg,
+  .premium-svg,
+  .stain-svg,
+  .fabric-svg,
+  .hang-svg{
+    line-height: 30px;
+  }
+
+  .premium-text p,
+  .stain-text p,
+  .fabric-text p,
+  .hang-text p,
+  .wash-text p,
+  .dry-text p,
+  .fold-text p,
+  .deliver-text p{
+    font-size: 17px;
+    padding-bottom: 10px;
+    line-height: 25px;
+  }
+
+  .press-svg {
+    padding-top: 5px;
+  }
+
+  .wash-price {
+    padding-top: 60px;
+  }
+  .ironing-price {
+    padding-top: 60px;
+  }
+  .button button {
+    font-size: 20px;
+    padding: 10px 30px;
+  }
+  .wash-price-svg {
+    padding-top: 10px;
+  }
+  .pricing-line {
+    margin: 5px 290px;
+  }
+  
 }
 
 @media (max-width: 1200px) {

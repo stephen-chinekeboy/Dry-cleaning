@@ -294,7 +294,7 @@ nav {
 
 .how-line {
   margin: 0 480px;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .line2 {
@@ -372,7 +372,7 @@ nav {
   /* justify-content: center; */
   gap: 30px;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  position: rle;
+  margin-top: 35px;
 }
 
 .wash-price ,
@@ -622,9 +622,16 @@ nav {
     height: 60px;
   }
 
+  .how-line {
+    margin: 5px 70px;
+    
+  }
+
+  /* pricing section */
   .pricing-flex {
     display: flex;
     flex-direction: column;
+    margin-top: 40px;
   }
 
   .wash-header h3:first-child,
@@ -650,12 +657,13 @@ nav {
     line-height: 30px;
   }
 
-  .button {
-    
-  }
   .button button {
     font-size: 15px;
     padding: 10px 40px;
+  }
+
+  .pricing-line {
+    margin: 5px 80px;
   }
 
 }

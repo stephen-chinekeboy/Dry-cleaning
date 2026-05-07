@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Pickup</title>
+  <link rel="stylesheet" href="/book.css">
+</head>
+<body>
+  <div class="book">
+    <div class="form-back">
+      <form action="">
+        <div class="book-text">
+          <h1>Book a Pickup</h1>
+          <p>Fill the form below and we'll take care of the rest.</p>
+        </div>
+        <div class="form-flex">
+          <div class="input">
+            <label for="name">Full Name</label>
+            <input id="name" type="text" name="full-name" placeholder="Your full name" required>
+          </div>
+          <div class="input-2">
+            <label for="number">Phone Number</label>
+            <input type="number" name="phone-number" id="number" placeholder="Your phone number" required title="fill">
+          </div>
+        </div>
+
+        <div class="input-form">
+          <div class="inputs">
+            <label for="house">Pickup Address</label>
+            <input id="house" type="text" name="address" placeholder="Enter your address" required>
+          </div>
+
+          <div class="inputs">
+            <label for="date">Pickup Date</label>
+            <input type="date" name="pick-date" id="date" placeholder="select">
+          </div>
+
+          <div class="inputs">
+            <label for="special">Special instructions (Optional)</label>
+            <input type="text" name="special" id="special" placeholder="Any special instructions" required>
+          </div>
+        </div>
+        <div class="button">
+          <button>Submit Booking ></button>
+        </div>
+      </form>
+      
+    </div>
+  </div>
+    
+</body>
+</html>

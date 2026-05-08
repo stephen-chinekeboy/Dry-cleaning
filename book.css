@@ -144,3 +144,13 @@ body {
     font-size: 15px;
   }
 }
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .book {
+    padding: 0;
+  }
+  .form-flex {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

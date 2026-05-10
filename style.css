@@ -44,6 +44,7 @@ body {
   border-radius: 10px;
   font-size: 15px;
   margin-left: 90px;
+  cursor: pointer;
 }
 
 nav {
@@ -146,6 +147,7 @@ nav {
   display: flex;
   gap: 15px;
   align-items: center;
+  cursor: pointer;
 }
 
 .book-2 {
@@ -213,6 +215,111 @@ nav {
   position: absolute;
   top: 0;
   left: 0;
+}
+/* about section */
+.about {
+  margin: 50px 8%;
+}
+
+.about-flex {
+  display: flex;
+  gap: 40px;
+}
+
+.about-us,
+.about-img {
+  flex: 1;
+}
+
+.about-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-header {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  background-color: #007bff26;
+  width: 100%;
+  padding: 0;
+  padding-left: 20px;
+  padding-right: 0px;
+  border-radius: 50px;
+}
+
+.about-header h2 {
+  font-size: 25px;
+  color: #007bff;
+}
+
+.about-header svg {
+  width: 70px;
+  height: 70px;
+  background-color: #007bff;
+  fill: white;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.about-text {
+  margin-bottom: 30px;
+}
+
+.about-text h1 {
+  font-size: 35px;
+  text-transform: capitalize;
+  width: 350px;
+  margin-bottom: 15px;
+}
+
+.about-text h1 span {
+  color: #007bff;
+}
+
+.about-text p {
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.about-svg {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.quick-svg,
+.reliable-svg,
+.advanced-svg {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+  padding: 20px 40px;
+}
+
+.quick-svg svg,
+.reliable-svg svg,
+.advanced-svg svg {
+  background-color: #f7fbff;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+  fill: #007bff;
+  background-color: #f7fbff;
+  border-radius: 50px;
+}
+
+.about-svg h3 {
+  text-transform: capitalize;
+}
+
+.about-svg p {
+  line-height: 30px;
 }
 /* services section */
 
@@ -595,6 +702,29 @@ nav {
 
   .pick-up-text .within{
     color: #f7fbff;
+  }
+  /* about section */
+  .about-flex {
+    flex-direction: column-reverse;
+  }
+
+  .about-text h1 {
+    font-size: 30px;
+    width: 300px;
+  }
+
+  .quick-svg,
+  .reliable-svg,
+  .advanced-svg {
+    padding: 15px 20px;
+  }
+
+  .quick-svg svg,
+  .reliable-svg svg,
+  .advanced-svg svg {
+    padding: 10px;
+    width: 80px;
+    height: 80px;
   }
 
   .services-flex {

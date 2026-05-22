@@ -779,11 +779,6 @@ nav {
 
 
 
-/* .follow-flex svg {
-  fill: #007bff;
-  width: 50px;
-  height: 50px;
-} */
 
 
 
@@ -962,6 +957,10 @@ nav {
 
   .pricing-line {
     margin: 5px 80px;
+  }
+
+  .follow {
+    padding: 10px;
   }
 
   .company-header h1{
